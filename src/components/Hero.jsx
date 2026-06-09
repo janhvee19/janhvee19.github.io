@@ -3,19 +3,19 @@ export default function Hero() {
     document.getElementById("work")?.scrollIntoView({ behavior: "smooth" });
 
   return (
-    <section id="home" className="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-24 pb-16 relative overflow-hidden bg-white">
+    <section id="home" className="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-24 pb-16 relative overflow-hidden bg-white dark:bg-gray-950">
       
       {/* Background blobs */}
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-violet-100 rounded-full blur-3xl opacity-50 -z-10" />
-      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-cyan-100 rounded-full blur-3xl opacity-50 -z-10" />
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-violet-100 dark:bg-violet-900 rounded-full blur-3xl opacity-50 -z-10" />
+      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-cyan-100 dark:bg-cyan-900 rounded-full blur-3xl opacity-50 -z-10" />
 
       {/* Badge */}
-      <span className="inline-block mb-6 px-4 py-1.5 rounded-full bg-indigo-50 text-indigo-600 text-sm font-semibold border border-indigo-100">
+      <span className="inline-block mb-6 px-4 py-1.5 rounded-full bg-indigo-50 dark:bg-indigo-900 text-indigo-600 dark:text-indigo-300 text-sm font-semibold border border-indigo-100 dark:border-indigo-700">
         Open to opportunities
       </span>
 
       {/* Headline */}
-      <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6 max-w-4xl text-gray-900">
+      <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6 max-w-4xl text-gray-900 dark:text-white">
         I design & build{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-cyan-500">
           digital products
@@ -24,7 +24,7 @@ export default function Hero() {
       </h1>
 
       {/* Subtext */}
-      <p className="text-lg md:text-xl text-gray-500 max-w-2xl mb-10 leading-relaxed">
+      <p className="text-lg md:text-xl text-gray-500 dark:text-gray-400 max-w-2xl mb-10 leading-relaxed">
         UI/UX Designer · Full-Stack Developer · AI SaaS Builder. <br />
         I turn ideas into polished, functional web products — from wireframe to deployed app.
       </p>
@@ -39,7 +39,7 @@ export default function Hero() {
         </button>
         <a
           href="mailto:your@email.com"
-          className="px-8 py-3.5 border-2 border-gray-300 text-gray-700 font-semibold rounded-full hover:border-indigo-500 hover:text-indigo-600 transition-all"
+          className="px-8 py-3.5 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 font-semibold rounded-full hover:border-indigo-500 hover:text-indigo-600 transition-all"
         >
           Get In Touch
         </a>
@@ -47,7 +47,7 @@ export default function Hero() {
 
       {/* Social Links */}
       <div className="flex items-center gap-6 mb-16">
-        <a href="https://github.com/yourusername" target="_blank" rel="noreferrer"
+        <a href="https://github.com/janhvee19" target="_blank" rel="noreferrer"
           className="text-gray-400 hover:text-indigo-600 text-sm font-medium transition-colors">
           GitHub
         </a>

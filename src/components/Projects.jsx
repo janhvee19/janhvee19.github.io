@@ -11,7 +11,7 @@ export default function Projects() {
     active === "All" ? projects : projects.filter((p) => p.category === active);
 
   return (
-    <section id="work" className="py-24 px-6 bg-gray-50">
+    <section id="work" className="py-24 px-6 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto">
 
         {/* Heading */}
@@ -19,10 +19,10 @@ export default function Projects() {
           <span className="text-indigo-500 font-semibold text-sm uppercase tracking-widest">
             Featured Work
           </span>
-          <h2 className="mt-2 text-4xl md:text-5xl font-extrabold text-gray-900">
+          <h2 className="mt-2 text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white">
             Projects I'm proud of
           </h2>
-          <p className="mt-4 text-gray-500 max-w-xl mx-auto">
+          <p className="mt-4 text-gray-500 dark:text-gray-400 max-w-xl mx-auto">
             Real apps. Real users. Built end-to-end — from design to deployment.
           </p>
         </div>
@@ -36,7 +36,7 @@ export default function Projects() {
               className={`px-5 py-2 rounded-full text-sm font-semibold transition-all ${
                 active === c
                   ? "bg-indigo-600 text-white shadow-md"
-                  : "bg-white text-gray-600 border border-gray-200 hover:border-indigo-400 hover:text-indigo-600"
+                  : "bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-700 hover:border-indigo-400 hover:text-indigo-600"
               }`}
             >
               {c}

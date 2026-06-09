@@ -1,0 +1,47 @@
+export const projects = [
+  {
+    id: "subsense",
+    name: "Subsense",
+    emoji: "📊",
+    tagline: "Subscription Tracker with AI Insights",
+    category: "Product / UX",
+    categoryColor: "bg-violet-100 text-violet-700",
+    stack: ["Next.js", "React"],
+    description:
+      "A smart subscription management app that tracks all your recurring payments, sends reminders before renewal, visualises spending with interactive charts, and surfaces AI-powered insights to help you cut costs.",
+    highlights: ["AI spending insights", "Visual charts & analytics", "Smart reminders"],
+    live: "#",
+    repo: "#",
+    gradient: "from-violet-500 to-indigo-500",
+  },
+  {
+    id: "workspire",
+    name: "Workspire",
+    emoji: "💼",
+    tagline: "Full-Stack Job Portal",
+    category: "Web App",
+    categoryColor: "bg-cyan-100 text-cyan-700",
+    stack: ["React", "Node.js", "MongoDB"],
+    description:
+      "A fully functional job portal where employers can post roles and candidates can search, filter, and apply. Features JWT authentication, role-based dashboards, advanced filters, and real-time application tracking.",
+    highlights: ["JWT Auth", "Advanced job filters", "Application tracking"],
+    live: "#",
+    repo: "#",
+    gradient: "from-cyan-500 to-teal-500",
+  },
+  {
+    id: "pixara",
+    name: "Pixara",
+    emoji: "🎨",
+    tagline: "Text-to-Image AI SaaS",
+    category: "AI & SaaS",
+    categoryColor: "bg-pink-100 text-pink-700",
+    stack: ["React", "Node.js", "AI API"],
+    description:
+      "A SaaS platform that converts natural language prompts into high-quality images using a real AI image generation API. Features a clean studio interface, image gallery, and credit-based generation system.",
+    highlights: ["Real AI image generation", "Credit system", "Image gallery"],
+    live: "#",
+    repo: "#",
+    gradient: "from-pink-500 to-rose-500",
+  },
+];
